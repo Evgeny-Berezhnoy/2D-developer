@@ -1,0 +1,2543 @@
+fileFormatVersion: 2
+guid: 41ca5a84fd56b464ca8847eec52d8d85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7607369355644961090
+    second: BlueKnightSpriteSheet_0
+  - first:
+      213: 4233984576981689057
+    second: BlueKnightSpriteSheet_1
+  - first:
+      213: -8481195689383234009
+    second: BlueKnightSpriteSheet_2
+  - first:
+      213: -1124676979622774594
+    second: BlueKnightSpriteSheet_3
+  - first:
+      213: -4043632287878845979
+    second: BlueKnightSpriteSheet_4
+  - first:
+      213: -5848384955576199315
+    second: BlueKnightSpriteSheet_5
+  - first:
+      213: -5951770336038569544
+    second: BlueKnightSpriteSheet_6
+  - first:
+      213: -63141662110374581
+    second: BlueKnightSpriteSheet_7
+  - first:
+      213: 3315078281338601191
+    second: BlueKnightSpriteSheet_8
+  - first:
+      213: 7724294339512466298
+    second: BlueKnightSpriteSheet_9
+  - first:
+      213: -6128165343024486684
+    second: BlueKnightSpriteSheet_10
+  - first:
+      213: -7994288682626956611
+    second: BlueKnightSpriteSheet_11
+  - first:
+      213: 6495580505893280357
+    second: BlueKnightSpriteSheet_12
+  - first:
+      213: -7774779012973600096
+    second: BlueKnightSpriteSheet_13
+  - first:
+      213: 8064496285692931604
+    second: BlueKnightSpriteSheet_14
+  - first:
+      213: -3014160755927708749
+    second: BlueKnightSpriteSheet_15
+  - first:
+      213: -5360802416531054878
+    second: BlueKnightSpriteSheet_16
+  - first:
+      213: 2203740542720085363
+    second: BlueKnightSpriteSheet_17
+  - first:
+      213: 5196156766268605557
+    second: BlueKnightSpriteSheet_18
+  - first:
+      213: -8400687748954435621
+    second: BlueKnightSpriteSheet_19
+  - first:
+      213: 9149241689213058187
+    second: BlueKnightSpriteSheet_20
+  - first:
+      213: 2986851648785050738
+    second: BlueKnightSpriteSheet_21
+  - first:
+      213: 7738141744075034756
+    second: BlueKnightSpriteSheet_22
+  - first:
+      213: 3406678845090330162
+    second: BlueKnightSpriteSheet_23
+  - first:
+      213: 6625292692407178810
+    second: BlueKnightSpriteSheet_24
+  - first:
+      213: 5380271372538042257
+    second: BlueKnightSpriteSheet_25
+  - first:
+      213: 600869928033977516
+    second: BlueKnightSpriteSheet_26
+  - first:
+      213: -2576193704703871826
+    second: BlueKnightSpriteSheet_27
+  - first:
+      213: -6080501420495617144
+    second: BlueKnightSpriteSheet_28
+  - first:
+      213: -1443638296096839269
+    second: BlueKnightSpriteSheet_29
+  - first:
+      213: 7926687933692480353
+    second: BlueKnightSpriteSheet_30
+  - first:
+      213: -4638734512986693871
+    second: BlueKnightSpriteSheet_31
+  - first:
+      213: -4364452543044797374
+    second: BlueKnightSpriteSheet_32
+  - first:
+      213: -2230652075009682139
+    second: BlueKnightSpriteSheet_33
+  - first:
+      213: 1593820390730263845
+    second: BlueKnightSpriteSheet_34
+  - first:
+      213: 4742886232173264790
+    second: BlueKnightSpriteSheet_35
+  - first:
+      213: -6863986565015533405
+    second: BlueKnightSpriteSheet_36
+  - first:
+      213: 7226439443679597427
+    second: BlueKnightSpriteSheet_37
+  - first:
+      213: -595287998909253199
+    second: BlueKnightSpriteSheet_38
+  - first:
+      213: 7304609042541016458
+    second: BlueKnightSpriteSheet_39
+  - first:
+      213: -5177534614477442575
+    second: BlueKnightSpriteSheet_40
+  - first:
+      213: 8982883036356084959
+    second: BlueKnightSpriteSheet_41
+  - first:
+      213: -7219614657372372340
+    second: BlueKnightSpriteSheet_42
+  - first:
+      213: -3597876860953804704
+    second: BlueKnightSpriteSheet_43
+  - first:
+      213: -1400589981017154889
+    second: BlueKnightSpriteSheet_44
+  - first:
+      213: -8214354990570111560
+    second: BlueKnightSpriteSheet_45
+  - first:
+      213: 7402319065800427909
+    second: BlueKnightSpriteSheet_46
+  - first:
+      213: -2929561377163727280
+    second: BlueKnightSpriteSheet_47
+  - first:
+      213: 5714948683915845962
+    second: BlueKnightSpriteSheet_48
+  - first:
+      213: 2824275197479563567
+    second: BlueKnightSpriteSheet_49
+  - first:
+      213: -6395050185098907390
+    second: BlueKnightSpriteSheet_50
+  - first:
+      213: -1125525226577698135
+    second: BlueKnightSpriteSheet_51
+  - first:
+      213: -797265489422516519
+    second: BlueKnightSpriteSheet_52
+  - first:
+      213: -7178728221179246174
+    second: BlueKnightSpriteSheet_53
+  - first:
+      213: -7307688152195775835
+    second: BlueKnightSpriteSheet_54
+  - first:
+      213: -7228416012370911346
+    second: BlueKnightSpriteSheet_55
+  - first:
+      213: 6652783679677399445
+    second: BlueKnightSpriteSheet_56
+  - first:
+      213: 2759111883306862014
+    second: BlueKnightSpriteSheet_57
+  - first:
+      213: -1943203897148444010
+    second: BlueKnightSpriteSheet_58
+  - first:
+      213: 3323695983632696474
+    second: BlueKnightSpriteSheet_59
+  - first:
+      213: 6451991091137019691
+    second: BlueKnightSpriteSheet_60
+  - first:
+      213: -2608273728036988535
+    second: BlueKnightSpriteSheet_61
+  - first:
+      213: -552163396525342982
+    second: BlueKnightSpriteSheet_62
+  - first:
+      213: 5233557445902427466
+    second: BlueKnightSpriteSheet_63
+  - first:
+      213: 3908142762705031345
+    second: BlueKnightSpriteSheet_64
+  - first:
+      213: 687845459677965025
+    second: BlueKnightSpriteSheet_65
+  - first:
+      213: -5883130162330727253
+    second: BlueKnightSpriteSheet_66
+  - first:
+      213: 1127980579678512527
+    second: BlueKnightSpriteSheet_67
+  - first:
+      213: 816661801517661880
+    second: BlueKnightSpriteSheet_68
+  - first:
+      213: -319009874960277371
+    second: BlueKnightSpriteSheet_69
+  - first:
+      213: -7074368196340062620
+    second: BlueKnightSpriteSheet_70
+  - first:
+      213: -1511425089705429149
+    second: BlueKnightSpriteSheet_71
+  - first:
+      213: 1498207767943877877
+    second: BlueKnightSpriteSheet_72
+  - first:
+      213: -4851623082642938388
+    second: BlueKnightSpriteSheet_73
+  - first:
+      213: 2606136430348693676
+    second: BlueKnightSpriteSheet_74
+  - first:
+      213: -4533816960064883110
+    second: BlueKnightSpriteSheet_75
+  - first:
+      213: -4928904385818773401
+    second: BlueKnightSpriteSheet_76
+  - first:
+      213: -6467993822430414360
+    second: BlueKnightSpriteSheet_77
+  - first:
+      213: 3711317924296823276
+    second: BlueKnightSpriteSheet_78
+  - first:
+      213: -4578082472308439346
+    second: BlueKnightSpriteSheet_79
+  - first:
+      213: 2358773983723023028
+    second: BlueKnightSpriteSheet_80
+  - first:
+      213: -2358240323807120289
+    second: BlueKnightSpriteSheet_81
+  - first:
+      213: 5893147668111661239
+    second: BlueKnightSpriteSheet_82
+  - first:
+      213: 295756358064353679
+    second: BlueKnightSpriteSheet_83
+  - first:
+      213: 6865626094479787483
+    second: BlueKnightSpriteSheet_84
+  - first:
+      213: -443375503118793377
+    second: BlueKnightSpriteSheet_85
+  - first:
+      213: 7689680615293153577
+    second: BlueKnightSpriteSheet_86
+  - first:
+      213: 5943764618101047627
+    second: BlueKnightSpriteSheet_87
+  - first:
+      213: 1122996646145133531
+    second: BlueKnightSpriteSheet_88
+  - first:
+      213: -8110887500098045630
+    second: BlueKnightSpriteSheet_89
+  - first:
+      213: -5656129423590665631
+    second: Knight atlas_0
+  - first:
+      213: -5097145318458483195
+    second: Knight atlas_1
+  - first:
+      213: -5928128879739123281
+    second: Knight atlas_2
+  - first:
+      213: 1119041175904370917
+    second: Knight atlas_3
+  - first:
+      213: 2861127280283253227
+    second: Knight atlas_4
+  - first:
+      213: -5323518772262842208
+    second: Knight atlas_5
+  - first:
+      213: 3856005494075282843
+    second: Knight atlas_6
+  - first:
+      213: 8128649587748414923
+    second: Knight atlas_7
+  - first:
+      213: -6412181412295510722
+    second: Knight atlas_8
+  - first:
+      213: -5499252216303658542
+    second: Knight atlas_9
+  - first:
+      213: -8855980224471560813
+    second: Knight atlas_10
+  - first:
+      213: -5740024963524097253
+    second: Knight atlas_11
+  - first:
+      213: -5215986100154008653
+    second: Knight atlas_12
+  - first:
+      213: 2635654694939971606
+    second: Knight atlas_13
+  - first:
+      213: 1512752275265343043
+    second: Knight atlas_14
+  - first:
+      213: 6029502303728172029
+    second: Knight atlas_15
+  - first:
+      213: -1727020150328159487
+    second: Knight atlas_16
+  - first:
+      213: -3720287627221443491
+    second: Knight atlas_17
+  - first:
+      213: 13216344477334205
+    second: Knight atlas_18
+  - first:
+      213: 5894973132523198421
+    second: Knight atlas_19
+  - first:
+      213: -2761869357403556371
+    second: Knight atlas_20
+  - first:
+      213: 6806646632429661921
+    second: Knight atlas_21
+  - first:
+      213: -7440517161721126228
+    second: Knight atlas_22
+  - first:
+      213: 6826951166670109657
+    second: Knight atlas_23
+  - first:
+      213: -7277440147043667098
+    second: Knight atlas_24
+  - first:
+      213: 312465839829128201
+    second: Knight atlas_25
+  - first:
+      213: -2103352062818478294
+    second: Knight atlas_26
+  - first:
+      213: 8077725093260128062
+    second: Knight atlas_27
+  - first:
+      213: 5596178146952819003
+    second: Knight atlas_28
+  - first:
+      213: -2709151246445431478
+    second: Knight atlas_29
+  - first:
+      213: 7380469143012929202
+    second: Knight atlas_30
+  - first:
+      213: -5523659575549012785
+    second: Knight atlas_31
+  - first:
+      213: 7226140826017386777
+    second: Knight atlas_32
+  - first:
+      213: -6635090235150690699
+    second: Knight atlas_33
+  - first:
+      213: -8243178269137614357
+    second: Knight atlas_34
+  - first:
+      213: -5912359377551313702
+    second: Knight atlas_35
+  - first:
+      213: 6588885618548309132
+    second: Knight atlas_36
+  - first:
+      213: -2870812743362117474
+    second: Knight atlas_37
+  - first:
+      213: 6997186519848994179
+    second: Knight atlas_38
+  - first:
+      213: -2282971695487428473
+    second: Knight atlas_39
+  - first:
+      213: 4736232559907868662
+    second: Knight atlas_40
+  - first:
+      213: 4320313115458850767
+    second: Knight atlas_41
+  - first:
+      213: 3033389119754335202
+    second: Knight atlas_42
+  - first:
+      213: -5468928260039162453
+    second: Knight atlas_43
+  - first:
+      213: -3816961926098008498
+    second: Knight atlas_44
+  - first:
+      213: -5450210240649471621
+    second: Knight atlas_45
+  - first:
+      213: 3801702146794757407
+    second: Knight atlas_46
+  - first:
+      213: 150723965860046054
+    second: Knight atlas_47
+  - first:
+      213: 8334193377500931888
+    second: Knight atlas_48
+  - first:
+      213: 5162676490789636534
+    second: Knight atlas_49
+  - first:
+      213: -1151548915854868805
+    second: Knight atlas_50
+  - first:
+      213: -6562826541146943248
+    second: Knight atlas_51
+  - first:
+      213: 3681113410411367126
+    second: Knight atlas_52
+  - first:
+      213: 4186282282474295480
+    second: Knight atlas_53
+  - first:
+      213: 8615672003563845595
+    second: Knight atlas_54
+  - first:
+      213: -7067253997344871865
+    second: Knight atlas_55
+  - first:
+      213: 694405832075485981
+    second: Knight atlas_56
+  - first:
+      213: -179988051821506539
+    second: Knight atlas_57
+  - first:
+      213: -3105657746208507059
+    second: Knight atlas_58
+  - first:
+      213: 2211244115920162314
+    second: Knight atlas_59
+  - first:
+      213: -5664073386059266886
+    second: Knight atlas_60
+  - first:
+      213: 1699948093454143683
+    second: Knight atlas_61
+  - first:
+      213: 318863267288189866
+    second: Knight atlas_62
+  - first:
+      213: 2591833923195454988
+    second: Knight atlas_63
+  - first:
+      213: 5491853549322800948
+    second: Knight atlas_64
+  - first:
+      213: 2760866713447852092
+    second: Knight atlas_65
+  - first:
+      213: -3839209247699751804
+    second: Knight atlas_66
+  - first:
+      213: 3562600101303958311
+    second: Knight atlas_67
+  - first:
+      213: 1144374505278044713
+    second: Knight atlas_68
+  - first:
+      213: -3243625281187626260
+    second: Knight atlas_69
+  - first:
+      213: -8879780658205110692
+    second: Knight atlas_70
+  - first:
+      213: 7132221424023816611
+    second: Knight atlas_71
+  - first:
+      213: -4403075759760137162
+    second: Knight atlas_72
+  - first:
+      213: 7289899410768141795
+    second: Knight atlas_73
+  - first:
+      213: -5033585656240333147
+    second: Knight atlas_74
+  - first:
+      213: -1291844130209240831
+    second: Knight atlas_75
+  - first:
+      213: 8662505691263009220
+    second: Knight atlas_76
+  - first:
+      213: 7149330471336449285
+    second: Knight atlas_77
+  - first:
+      213: -4795679804332122897
+    second: Knight atlas_78
+  - first:
+      213: 2199647289351783189
+    second: Knight atlas_79
+  - first:
+      213: 1988585319516789593
+    second: Knight atlas_80
+  - first:
+      213: 1732545508116373337
+    second: Knight atlas_81
+  - first:
+      213: 7026484741151357965
+    second: Knight atlas_82
+  - first:
+      213: -7089590957518709536
+    second: Knight atlas_83
+  - first:
+      213: 2274325563639192515
+    second: Knight atlas_84
+  - first:
+      213: -9213731606869583294
+    second: Knight atlas_85
+  - first:
+      213: -5137088677778158863
+    second: Knight atlas_86
+  - first:
+      213: 7336446143727626981
+    second: Knight atlas_87
+  - first:
+      213: 8405911622776515666
+    second: Knight atlas_88
+  - first:
+      213: 5530994173834426127
+    second: Knight atlas_89
+  - first:
+      213: 7636744819651369200
+    second: Knight atlas_90
+  - first:
+      213: -783077189766379028
+    second: Knight atlas_91
+  - first:
+      213: -1646075514901635628
+    second: Knight atlas_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight atlas_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 852
+        width: 69
+        height: 87
+      alignment: 9
+      pivot: {x: 0.4973673, y: 0.065689966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1625e37b1446181b0800000000000000
+      internalID: -5656129423590665631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 951
+        width: 64
+        height: 65
+      alignment: 9
+      pivot: {x: 0.49692798, y: 0.02817289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e9cb4b65d4349b0800000000000000
+      internalID: -5097145318458483195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 952
+        width: 71
+        height: 62
+      alignment: 9
+      pivot: {x: 0.49169278, y: 0.052904684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa94a64413e0bbda0800000000000000
+      internalID: -5928128879739123281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 958
+        width: 79
+        height: 59
+      alignment: 9
+      pivot: {x: 0.49751148, y: 0.09014996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0c0d24502a78f00800000000000000
+      internalID: 1119041175904370917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 958
+        width: 74
+        height: 48
+      alignment: 9
+      pivot: {x: 0.50265586, y: 0.08640543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9767e3a14c4b720800000000000000
+      internalID: 2861127280283253227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 956
+        width: 82
+        height: 44
+      alignment: 9
+      pivot: {x: 0.50479496, y: 0.15066805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a05620c1ef0f16b0800000000000000
+      internalID: -5323518772262842208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_6
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 852
+        width: 101
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.081431605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95df4e1198438530800000000000000
+      internalID: 3856005494075282843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_7
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 954
+        width: 81
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5024256, y: 0.15373297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ae5d8bb3cec070800000000000000
+      internalID: 8128649587748414923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_8
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 952
+        width: 94
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5022278, y: 0.18137996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3573cc8afa5307a0800000000000000
+      internalID: -6412181412295510722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_9
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 951
+        width: 97
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5018845, y: 0.23630695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9d0fcde3bbea3b0800000000000000
+      internalID: -5499252216303658542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_10
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 951
+        width: 96
+        height: 49
+      alignment: 9
+      pivot: {x: 0.50263333, y: 0.21086401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d0d7628ec391580800000000000000
+      internalID: -8855980224471560813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 852
+        width: 70
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06393396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbf1f207481d97b0800000000000000
+      internalID: -5215986100154008653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_13
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 852
+        width: 83
+        height: 73
+      alignment: 9
+      pivot: {x: 0.49847963, y: 0.060893018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610dc721bf9b39420800000000000000
+      internalID: 2635654694939971606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 852
+        width: 93
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50312585, y: 0.071214885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eca50fd206ef410800000000000000
+      internalID: 1512752275265343043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 852
+        width: 101
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5014222, y: 0.0760348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbfd1a46681da350800000000000000
+      internalID: 6029502303728172029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_16
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 852
+        width: 100
+        height: 51
+      alignment: 9
+      pivot: {x: 0.495119, y: 0.087668024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1039fbbc2546808e0800000000000000
+      internalID: -1727020150328159487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_17
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 852
+        width: 100
+        height: 43
+      alignment: 9
+      pivot: {x: 0.49978638, y: 0.11505553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5f2d2d12ee5cc0800000000000000
+      internalID: -3720287627221443491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_18
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 852
+        width: 100
+        height: 43
+      alignment: 9
+      pivot: {x: 0.49901062, y: 0.10901021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbafccdf134fe2000800000000000000
+      internalID: 13216344477334205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 750
+        width: 79
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d75484c4d62fc150800000000000000
+      internalID: 5894973132523198421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 750
+        width: 59
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee249d8c01167e50800000000000000
+      internalID: 6806646632429661921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_22
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 750
+        width: 65
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca22a6e1019fdb890800000000000000
+      internalID: -7440517161721126228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 750
+        width: 76
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db7f445ae33ebe50800000000000000
+      internalID: 6826951166670109657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_24
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 750
+        width: 79
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663bb496eb6510b90800000000000000
+      internalID: -7277440147043667098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 750
+        width: 90
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904957b960a165400800000000000000
+      internalID: 312465839829128201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 750
+        width: 81
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a279e1261746fc2e0800000000000000
+      internalID: -2103352062818478294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_27
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 750
+        width: 62
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f6709bc28d91070800000000000000
+      internalID: 8077725093260128062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_28
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 750
+        width: 62
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b313de4ff5e99ad40800000000000000
+      internalID: 5596178146952819003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_29
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 750
+        width: 60
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4530d88b49276ad0800000000000000
+      internalID: -2709151246445431478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 655
+        width: 68
+        height: 86
+      alignment: 9
+      pivot: {x: 0.48957634, y: 0.05081248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be64090591bc6660800000000000000
+      internalID: 7380469143012929202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_31
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 569
+        width: 69
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49620342, y: 0.08125144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc45733b1e40853b0800000000000000
+      internalID: -5523659575549012785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 569
+        width: 72
+        height: 77
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.063295834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911d6b7abc8684460800000000000000
+      internalID: 7226140826017386777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_33
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 569
+        width: 70
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49802476, y: 0.061624628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761e29d59c6be3a0800000000000000
+      internalID: -6635090235150690699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 569
+        width: 69
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.06662661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4ba9c987413fda0800000000000000
+      internalID: -5912359377551313702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_36
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 569
+        width: 72
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49830925, y: 0.07366706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c70478f8c607b50800000000000000
+      internalID: 6588885618548309132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 569
+        width: 66
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49801543, y: 0.07855616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e908c372503d828d0800000000000000
+      internalID: -2870812743362117474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_38
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 569
+        width: 71
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4942558, y: 0.08140323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38540ce21100b1160800000000000000
+      internalID: 6997186519848994179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_39
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 569
+        width: 70
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49417377, y: 0.08319253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7885332b6514150e0800000000000000
+      internalID: -2282971695487428473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_40
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 569
+        width: 71
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49617112, y: 0.088605605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff82fa6b6a7ab140800000000000000
+      internalID: 4736232559907868662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_41
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 569
+        width: 73
+        height: 77
+      alignment: 9
+      pivot: {x: 0.50270647, y: 0.08138556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfc26573e5d4fb30800000000000000
+      internalID: 4320313115458850767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 472
+        width: 74
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3fd743553c81a20800000000000000
+      internalID: 3033389119754335202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 472
+        width: 75
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5454e19b67a14b0800000000000000
+      internalID: -5468928260039162453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_44
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 399
+        width: 66
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46ccb1f95d670bc0800000000000000
+      internalID: -3816961926098008498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_45
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 472
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7954ee99a6fc54b0800000000000000
+      internalID: -5450210240649471621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_46
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 472
+        width: 73
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d9a81d5fb52c430800000000000000
+      internalID: 3801702146794757407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_47
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 472
+        width: 80
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4e93cf5aa771200800000000000000
+      internalID: 150723965860046054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_48
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 472
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0372b5b68b009a370800000000000000
+      internalID: 8334193377500931888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_49
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 472
+        width: 76
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9c6c35ae285a740800000000000000
+      internalID: 5162676490789636534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_50
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 472
+        width: 77
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbefbf8bc50e400f0800000000000000
+      internalID: -1151548915854868805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_51
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 472
+        width: 74
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05e6c38082ce4a0800000000000000
+      internalID: -6562826541146943248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_52
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 399
+        width: 75
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0f75b421f51330800000000000000
+      internalID: 3681113410411367126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 399
+        width: 72
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b054685e89a81a30800000000000000
+      internalID: 4186282282474295480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_54
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 399
+        width: 67
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd773b91a04019770800000000000000
+      internalID: 8615672003563845595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_55
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 399
+        width: 67
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aacceeee11ced90800000000000000
+      internalID: -7067253997344871865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_56
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 399
+        width: 64
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a1d6dc6603a900800000000000000
+      internalID: 694405832075485981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_57
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 399
+        width: 62
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5105d5b02dd808df0800000000000000
+      internalID: -179988051821506539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_58
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 399
+        width: 63
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b3d4bfbbc76e4d0800000000000000
+      internalID: -3105657746208507059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_59
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 399
+        width: 61
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0819cecaefae10800000000000000
+      internalID: 2211244115920162314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_60
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 399
+        width: 70
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab48132d34b2561b0800000000000000
+      internalID: -5664073386059266886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_61
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 182
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0dfe6c8cd679710800000000000000
+      internalID: 1699948093454143683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_62
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 326
+        width: 58
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab02a2c374dc6400800000000000000
+      internalID: 318863267288189866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_63
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 326
+        width: 58
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c064fd4983b08f320800000000000000
+      internalID: 2591833923195454988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_64
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 326
+        width: 69
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f8addb4bbf63c40800000000000000
+      internalID: 5491853549322800948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_65
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 326
+        width: 65
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38624fe5a1905620800000000000000
+      internalID: 2760866713447852092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_66
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 326
+        width: 67
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c267cb78368bac0800000000000000
+      internalID: -3839209247699751804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_67
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 326
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b3efaaae5e07130800000000000000
+      internalID: 3562600101303958311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_68
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 326
+        width: 60
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7c15ac82a1ef00800000000000000
+      internalID: 1144374505278044713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_69
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 326
+        width: 59
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c5520ef35cf2d0800000000000000
+      internalID: -3243625281187626260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_70
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 326
+        width: 59
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ecc48d98ea4c480800000000000000
+      internalID: -8879780658205110692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_71
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 108
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9ce56d89dbaf260800000000000000
+      internalID: 7132221424023816611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_72
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 326
+        width: 62
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6342d5ccce125e2c0800000000000000
+      internalID: -4403075759760137162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_73
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 184
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed1a2bf3ecea2560800000000000000
+      internalID: 7289899410768141795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_74
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 184
+        width: 60
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae1b45c38c152ab0800000000000000
+      internalID: -5033585656240333147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_75
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 184
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10964b9ab92721ee0800000000000000
+      internalID: -1291844130209240831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_76
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 108
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c10880c707673870800000000000000
+      internalID: 8662505691263009220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_77
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 184
+        width: 70
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50592e55f26873360800000000000000
+      internalID: 7149330471336449285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_78
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 184
+        width: 68
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecd44660a2527db0800000000000000
+      internalID: -4795679804332122897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_79
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 184
+        width: 63
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513c6f03e87b68e10800000000000000
+      internalID: 2199647289351783189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_80
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 184
+        width: 62
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bda57efcfd89b10800000000000000
+      internalID: 1988585319516789593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_81
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 183
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f9970d5fc3b0810800000000000000
+      internalID: 1732545508116373337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_82
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 183
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7708e4a6138160800000000000000
+      internalID: 7026484741151357965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 108
+        width: 58
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec964e1696bc9d90800000000000000
+      internalID: -7089590957518709536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_84
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 108
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbdd4cdc07009f10800000000000000
+      internalID: 2274325563639192515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_85
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 257
+        width: 66
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24adfb48bef322080800000000000000
+      internalID: -9213731606869583294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_86
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 108
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa0a55a01565b8b0800000000000000
+      internalID: -5137088677778158863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_87
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 108
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea6ba6c5ea40d560800000000000000
+      internalID: 7336446143727626981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_88
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 108
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cebe0a51cc7a470800000000000000
+      internalID: 8405911622776515666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_89
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 108
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07f72a85e902cc40800000000000000
+      internalID: 5530994173834426127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_90
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 108
+        width: 60
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8df97c3fa2bf960800000000000000
+      internalID: 7636744819651369200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_91
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 108
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce98340e173f125f0800000000000000
+      internalID: -783077189766379028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight atlas_92
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 108
+        width: 59
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddd1dc5a07f729e0800000000000000
+      internalID: -1646075514901635628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
