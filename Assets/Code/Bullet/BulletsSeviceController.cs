@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Interfaces;
 using Interfaces.MVC;
 using Interfaces.MVC.UnityEvents;
 
 namespace Bullet
 {
-    public class BulletsSeviceController : IController, IUpdate, IFixedUpdate
+    public class BulletsSeviceController : IController, IRestartable, IUpdate, IFixedUpdate
     {
 
         #region Fields
@@ -46,28 +47,20 @@ namespace Bullet
 
         #region Interfaces Methods
 
-        public void OnUpdate(float deltaTime)
+        public void Restart()
         {
-
-            _cooldownCurrent = Mathf.Clamp(_cooldownCurrent - deltaTime, 0, _cooldown);
-
-            if(_cooldownCurrent == 0)
+            
+            for(int i = 0; i < _bulletControllers.Count; i++)
             {
 
-                _cooldownCurrent = _cooldown;
-
-                var _bulletController = _bulletControllers.FirstOrDefault(x => x.IsDead);
-
-                if(_bulletController == null)
-                {
-
-                    _bulletController = _bulletControllers[0];
-
-                };
-
-                _bulletController.Throw(_bulletSpawnPoint, _bulletSpawnPoint.up.normalized * _speed);
+                _bulletControllers[i].Restart();
 
             };
+
+        }
+
+        public void OnUpdate(float deltaTime)
+        {
 
             for(int i = 0; i < _bulletControllers.Count; i++)
             {
@@ -78,13 +71,26 @@ namespace Bullet
 
         }
 
-        public void OnFixedUpdate()
+        public void OnFixedUpdate(float deltaTime)
         {
 
-            for (int i = 0; i < _bulletControllers.Count; i++)
+            _cooldownCurrent = Mathf.Clamp(_cooldownCurrent - deltaTime, 0, _cooldown);
+
+            if (_cooldownCurrent == 0)
             {
 
-                _bulletControllers[i].OnFixedUpdate();
+                _cooldownCurrent = _cooldown;
+
+                var _bulletController = _bulletControllers.FirstOrDefault(x => x.IsDead);
+
+                if (_bulletController == null)
+                {
+
+                    _bulletController = _bulletControllers[0];
+
+                };
+
+                _bulletController.Throw(_bulletSpawnPoint, _bulletSpawnPoint.up.normalized * _speed);
 
             };
 

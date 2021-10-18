@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Enemy.Gun;
+using Controllers;
 using Game;
 using Interfaces.MVC;
 
@@ -17,10 +18,10 @@ namespace Enemy
 
         #region Constructors
 
-        public EnemyInitializer(ControllersList controllersList, EnemyCollectionView enemyCollectionView, Transform playerTransform, Transform poolTransform)
+        public EnemyInitializer(ControllersList controllersList, EnemyCollectionView enemyCollectionView, Transform playerTransform, Transform poolTransform, GameRestarter gameRestarter)
         {
 
-            _gunServiceController = new GunServiceController(enemyCollectionView.Guns, enemyCollectionView.BulletData, playerTransform, poolTransform);
+            _gunServiceController = new GunServiceController(enemyCollectionView.Guns, enemyCollectionView.BulletData, playerTransform, poolTransform, gameRestarter);
 
             controllersList.AddController(_gunServiceController);
 

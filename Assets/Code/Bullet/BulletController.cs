@@ -1,16 +1,14 @@
 ﻿using UnityEngine;
-using Constants.LayersLogic;
 using ExtensionCompilation;
 using Interfaces.Components;
+using Interfaces;
 using Interfaces.MVC;
 using Interfaces.MVC.UnityEvents;
-
-using Collision = Constants.LayersLogic.Collision;
 
 namespace Bullet
 {
 
-    public class BulletController : IController, IUpdate, IFixedUpdate, IToggleObject
+    public class BulletController : IController, IRestartable, IUpdate, IToggleObject
     {
 
         #region Fields
@@ -20,9 +18,9 @@ namespace Bullet
 
         private Vector2 _velocity;
 
+        private GameObject _gameObject;
         private Transform _transform;
         private TrailRenderer _trailRenderer;
-        private CircleCollider2D _collider;
         private Rigidbody2D _rigidbody;
 
         #endregion
@@ -40,9 +38,9 @@ namespace Bullet
 
             _lifeTime       = view.LifeTime;
 
+            _gameObject     = view.gameObject;
             _transform      = view.transform;
             _trailRenderer  = view.TrailRenderer;
-            _collider       = view.Collider;
             _rigidbody      = view.Rigidbody;
 
             SwitchOff();
@@ -56,8 +54,8 @@ namespace Bullet
         private void SetVelocity()
         {
 
-            _rigidbody.velocity = _velocity;
-            
+            _rigidbody.AddForce(_velocity, ForceMode2D.Force);
+
             var angle           = Vector3.Angle(Vector3.left, _velocity);
             var axis            = Vector3.Cross(Vector3.left, _velocity);
             
@@ -67,12 +65,14 @@ namespace Bullet
 
         public void Throw(Transform spawnTransform, Vector3 velocity)
         {
-            
+
+            SwitchOn();
+
             _transform.SetPositionAndRotation(spawnTransform);
 
             _velocity = velocity;
 
-            SwitchOn();
+            SetVelocity();
 
         }
 
@@ -87,31 +87,7 @@ namespace Bullet
 
             };
 
-            _transform.gameObject.SetActive(state);
-
-        }
-
-        private Collision CheckCollision()
-        {
-
-            if(Physics2D.OverlapCircle(_transform.position, _collider.radius, LayerMasks.WALL) != null)
-            {
-
-                return Collision.WALL;
-
-            }
-            if (Physics2D.OverlapCircle(_transform.position, _collider.radius, LayerMasks.GROUND) != null)
-            {
-
-                return Collision.GROUND;
-
-            }
-            else
-            {
-
-                return Collision.NONE;
-
-            };
+            _gameObject.SetActive(state);
 
         }
 
@@ -119,8 +95,19 @@ namespace Bullet
 
         #region Interfaces Properties
 
+        public void Restart()
+        {
+
+            SwitchOff();
+
+            _transform.SetLocalPositionAndRotation();
+
+        }
+
         public void OnUpdate(float deltaTime)
         {
+
+            if (!_gameObject.activeSelf) return;
 
             _lifeTimeCurrent = Mathf.Clamp(_lifeTimeCurrent - deltaTime, 0, _lifeTime);
 
@@ -129,52 +116,7 @@ namespace Bullet
 
                 SwitchOff();
 
-                return;
-
-            }
-
-            var collision = CheckCollision();
-
-            if (collision == Collision.GROUND)
-            {
-
-                _velocity = _velocity.Change(y: 0 - _velocity.y);
-
-                _transform.position = _transform.position.Change(y: _transform.position.y + _collider.radius);
-
-            }
-            else if (collision == Collision.WALL)
-            {
-
-                _velocity = _velocity.Change(x: 0 - _velocity.x);
-
-                if (_velocity.x > 0)
-                {
-
-                    _transform.position = _transform.position.Change(x: _transform.position.x + _collider.radius);
-
-                }
-                else if(_velocity.x < 0)
-                {
-
-                    _transform.position = _transform.position.Change(x: _transform.position.x - _collider.radius);
-
-                };
-                                
-            }
-            else
-            {
-
-                _velocity = _velocity + Vector2.up * Physics2D.gravity.y * Time.deltaTime;
-
-            }
-
-        }
-
-        public void OnFixedUpdate()
-        {
-
-            SetVelocity();
+            };
 
         }
 

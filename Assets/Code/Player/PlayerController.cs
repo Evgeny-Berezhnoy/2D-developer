@@ -1,27 +1,28 @@
-﻿using Controllers;
+﻿using UnityEngine;
+using Controllers;
 using Interfaces.MVC;
 using Interfaces.MVC.UnityEvents;
 
 namespace Player
 {
 
-    public class PlayerController : IController, IUpdate
+    public class PlayerController : IController, IUpdate, IFixedUpdate
     {
 
         #region Fields
 
         private PlayerAnimator _playerAnimator;
-        private PlayerMoveController _playerMoveController;
+        private PlayerMoveRigidbodyController _playerMoveController;
 
         #endregion
 
         #region Constructors
 
-        public PlayerController(PlayerView playerView, InputController inputController)
+        public PlayerController(Transform playerTransform, PlayerView playerView, GameRestarter gameRestarter, InputController inputController)
         {
 
-            _playerAnimator         = new PlayerAnimator(playerView.Animator);
-            _playerMoveController   = new PlayerMoveController(playerView, _playerAnimator, inputController);
+            _playerAnimator         = new PlayerAnimator(playerView.Animator, gameRestarter);
+            _playerMoveController   = new PlayerMoveRigidbodyController(playerTransform, playerView, gameRestarter, _playerAnimator, inputController);
 
         }
 
@@ -33,6 +34,13 @@ namespace Player
         {
 
             _playerMoveController.OnUpdate(deltaTime);
+            
+        }
+
+        public void OnFixedUpdate(float deltaTime)
+        {
+
+            _playerMoveController.OnFixedUpdate(deltaTime);
 
         }
 

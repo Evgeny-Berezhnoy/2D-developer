@@ -1,4 +1,5 @@
-﻿using Controllers;
+﻿using UnityEngine;
+using Controllers;
 using Game;
 using Interfaces.MVC;
 
@@ -9,6 +10,7 @@ namespace Player
 
         #region Fields
 
+        private InputController _inputController;
         private PlayerController _playerController;
 
         #endregion
@@ -21,15 +23,14 @@ namespace Player
 
         #region Constructors
 
-        public PlayerInitializer(ControllersList controllersList, PlayerView playerView)
+        public PlayerInitializer(ControllersList controllersList, Transform playerTransform, PlayerView playerView, GameRestarter gameRestarter)
         {
 
-            var inputController = new InputController();
+            _inputController    = new InputController();
+            _playerController   = new PlayerController(playerTransform, playerView, gameRestarter, _inputController);
 
-            var playerController = new PlayerController(playerView, inputController);
-
-            controllersList.AddController(inputController);
-            controllersList.AddController(playerController);
+            controllersList.AddController(_inputController);
+            controllersList.AddController(_playerController);
 
         }
 

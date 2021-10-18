@@ -9,7 +9,7 @@ using static Constants.Delegates;
 
 namespace Controllers
 {
-    public class InputController : IController, IUpdate
+    public class InputController : IController, IUpdate, IDisposable
     {
 
         #region Events
@@ -22,19 +22,6 @@ namespace Controllers
         #region Properties
 
         private Vector3 _axisShift => new Vector3(Input.GetAxis(InputAxis.HORIZONTAL), Input.GetAxis(InputAxis.VERTICAL));
-
-        #endregion
-
-        #region Destructors
-
-        ~InputController()
-        {
-
-            RemoveAllAxisShiftHandlers();
-
-            RemoveAllSpacePressHandlers();
-            
-        }
 
         #endregion
 
@@ -135,6 +122,15 @@ namespace Controllers
             CheckAxisShift(deltaTime);
 
             CheckSpacePress();
+
+        }
+
+        public void Dispose()
+        {
+
+            RemoveAllAxisShiftHandlers();
+
+            RemoveAllSpacePressHandlers();
 
         }
 
