@@ -14,10 +14,24 @@ namespace ExtensionCompilation
 
         }
 
+        public static Vector2 TrimX(this Vector2 vector)
+        {
+
+            return new Vector2(vector.x, 0);
+
+        }
+
         public static Vector3 TrimY(this Vector3 vector)
         {
 
             return new Vector3(0, vector.y);
+
+        }
+
+        public static Vector2 TrimY(this Vector2 vector)
+        {
+
+            return new Vector2(0, vector.y);
 
         }
 

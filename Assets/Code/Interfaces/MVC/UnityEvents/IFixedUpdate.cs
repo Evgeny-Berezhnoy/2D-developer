@@ -4,7 +4,7 @@
     public interface IFixedUpdate
     {
 
-        void OnFixedUpdate();
+        void OnFixedUpdate(float deltaTime);
 
     }
 

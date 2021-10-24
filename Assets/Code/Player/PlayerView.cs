@@ -22,6 +22,7 @@ namespace Player
         [Header("Parameters")]
         [SerializeField] private float _speed;
         [SerializeField] private float _leapHeight;
+        [SerializeField] private float _ignoringPlatformsLength;
 
         #endregion
 
@@ -33,6 +34,7 @@ namespace Player
         public Transform LegsTransform => _legsTransform; 
         public float Speed => _speed;
         public float LeapHeight => _leapHeight;
+        public float IgnoringPlatformsLength => _ignoringPlatformsLength;
 
         #endregion
 

@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using Bullet;
+using Interfaces;
 using Interfaces.MVC;
 using Interfaces.MVC.UnityEvents;
 
 namespace Enemy.Gun
 {
-    public class GunController : IController, IUpdate, IFixedUpdate
+    public class GunController : IController, IRestartable, IUpdate, IFixedUpdate
     {
 
         #region Fields
@@ -33,6 +34,13 @@ namespace Enemy.Gun
 
         #region Interface methods
 
+        public void Restart()
+        {
+
+            _bulletsSeviceController.Restart();
+
+        }
+
         public void OnUpdate(float deltaTime)
         {
 
@@ -46,10 +54,10 @@ namespace Enemy.Gun
 
         }
 
-        public void OnFixedUpdate()
+        public void OnFixedUpdate(float deltaTime)
         {
 
-            _bulletsSeviceController.OnFixedUpdate();
+            _bulletsSeviceController.OnFixedUpdate(deltaTime);
 
         }
 

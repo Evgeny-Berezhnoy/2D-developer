@@ -68,13 +68,13 @@ namespace Game
 
         }
 
-        public void OnFixedUpdate()
+        public void OnFixedUpdate(float deltaTime)
         {
 
             for (var i = 0; i < _fixedUpdateControllers.Count; i++)
             {
 
-                _fixedUpdateControllers[i].OnFixedUpdate();
+                _fixedUpdateControllers[i].OnFixedUpdate(deltaTime);
 
             };
 

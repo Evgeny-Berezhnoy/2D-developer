@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Controllers;
+using Interfaces;
 
 namespace Player
 {
-    public class PlayerAnimator : AnimatorController
+
+    public class PlayerAnimator : AnimatorController, IRestartable, IDisposable
     {
 
         #region Fields
@@ -14,15 +17,46 @@ namespace Player
 
         #endregion
 
+        #region Observers
+
+        private GameRestarter _gameRestarter;
+
+        #endregion
+
         #region Constructors
 
-        public PlayerAnimator(Animator animator) : base(animator)
+        public PlayerAnimator(Animator animator, GameRestarter gameRestarter) : base(animator)
+        {
+
+            _gameRestarter = gameRestarter;
+            _gameRestarter.AddHandler(Restart);
+
+            Restart();
+
+        }
+
+        #endregion
+
+        #region Interfaces Methods
+
+        public void Dispose()
+        {
+            
+            _gameRestarter.RemoveHandler(Restart);
+            
+        }
+
+        #endregion
+
+        #region Interfaces Methods
+
+        public void Restart()
         {
 
             IdleRight();
 
             Landed();
-
+            
         }
 
         #endregion
