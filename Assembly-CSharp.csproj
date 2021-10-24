@@ -97,14 +97,19 @@
     <Compile Include="Assets\Code\Enemy\Gun\GunController.cs" />
     <Compile Include="Assets\Code\Enemy\Gun\GunServiceController.cs" />
     <Compile Include="Assets\Code\Enemy\Gun\GunView.cs" />
+    <Compile Include="Assets\Code\Enemy\Zombie\ZombieAnimator.cs" />
+    <Compile Include="Assets\Code\Enemy\Zombie\ZombieController.cs" />
+    <Compile Include="Assets\Code\Enemy\Zombie\ZombieMoveController.cs" />
+    <Compile Include="Assets\Code\Enemy\Zombie\ZombieServiceController.cs" />
+    <Compile Include="Assets\Code\Enemy\Zombie\ZombieView.cs" />
     <Compile Include="Assets\Code\ExtensionCompilation\Collections.cs" />
     <Compile Include="Assets\Code\ExtensionCompilation\Gameobjects.cs" />
     <Compile Include="Assets\Code\ExtensionCompilation\Transforms.cs" />
     <Compile Include="Assets\Code\ExtensionCompilation\Vectors.cs" />
     <Compile Include="Assets\Code\Game\ControllersList.cs" />
     <Compile Include="Assets\Code\Game\GameController.cs" />
-    <Compile Include="Assets\Code\Game\Physicals\ContactsPoller2D.cs" />
     <Compile Include="Assets\Code\Game\Physicals\RestrictionsContactsPoller2D.cs" />
+    <Compile Include="Assets\Code\Game\Physicals\TriggerContactsPoller2D.cs" />
     <Compile Include="Assets\Code\Interfaces\Components\IAnimated.cs" />
     <Compile Include="Assets\Code\Interfaces\Components\ICollidable.cs" />
     <Compile Include="Assets\Code\Interfaces\Components\IRigidbody.cs" />
@@ -115,14 +120,24 @@
     <Compile Include="Assets\Code\Interfaces\IRestartable.cs" />
     <Compile Include="Assets\Code\Interfaces\MVC\IController.cs" />
     <Compile Include="Assets\Code\Interfaces\MVC\IGameInitializer.cs" />
+    <Compile Include="Assets\Code\Interfaces\MVC\UnityEvents\IAwake.cs" />
     <Compile Include="Assets\Code\Interfaces\MVC\UnityEvents\IFixedUpdate.cs" />
     <Compile Include="Assets\Code\Interfaces\MVC\UnityEvents\IUpdate.cs" />
     <Compile Include="Assets\Code\Interfaces\Move\IMovable.cs" />
+    <Compile Include="Assets\Code\Iterators\AdvancedIterators.cs" />
     <Compile Include="Assets\Code\Lifts\LiftCollectionView.cs" />
     <Compile Include="Assets\Code\Lifts\LiftController.cs" />
     <Compile Include="Assets\Code\Lifts\LiftInitializer.cs" />
     <Compile Include="Assets\Code\Lifts\LiftServiceController.cs" />
     <Compile Include="Assets\Code\Lifts\LiftView.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\ControlNode.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\LevelGenerator.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\LevelGeneratorInspector.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\LevelView.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\MarchingSquaresGenerator.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\Node.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\Square.cs" />
+    <Compile Include="Assets\Code\Marching Squares Demo\SquareGrid.cs" />
     <Compile Include="Assets\Code\Player\PlayerAnimator.cs" />
     <Compile Include="Assets\Code\Player\PlayerController.cs" />
     <Compile Include="Assets\Code\Player\PlayerInitializer.cs" />
@@ -134,6 +149,7 @@
     <Compile Include="Assets\Code\Points\PointsView.cs" />
     <Compile Include="Assets\Code\UI\BaseUIController.cs" />
     <Compile Include="Assets\Code\UI\InscriptionUIController.cs" />
+    <Compile Include="Assets\Code\Views\Itinarary.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -316,6 +332,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>D:/Unity projects/Projects/2D Developer/Assets/Imported packages/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -744,7 +763,20 @@
       <HintPath>D:/Unity projects/Projects/2D Developer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{9E679D4D-5FF6-7FC3-D8D9-DADED5CAB783}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{92FE4A75-B6AE-BFE4-A0EE-8D3F4817E00F}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{76890466-C19F-6536-3189-EE0141A5BA61}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

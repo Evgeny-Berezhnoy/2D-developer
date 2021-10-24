@@ -44,7 +44,7 @@ namespace Death
 
             if (!_view.gameObject.activeSelf) return;
 
-            _contactsPoller.OnUpdate(deltaTime);
+            _contactsPoller.Overlap();
 
             if (_contactsPoller.HasContacts)
             {
