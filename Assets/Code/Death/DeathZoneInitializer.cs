@@ -18,7 +18,7 @@ namespace Death
         public DeathZoneInitializer(ControllersList controllersList, DeathZoneCollectionView deathZoneCollectionView, GameRestarter gameRestarter)
         {
 
-            _deathZoneServiceController = new DeathZoneServiceController(deathZoneCollectionView.DeathZones, gameRestarter);
+            _deathZoneServiceController = new DeathZoneServiceController(deathZoneCollectionView.CollectionView, gameRestarter);
 
             controllersList.AddController(_deathZoneServiceController);
 

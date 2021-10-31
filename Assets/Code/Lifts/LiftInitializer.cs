@@ -17,7 +17,7 @@ namespace Lifts
         public LiftInitializer(ControllersList controllersList, LiftCollectionView liftCollectionView)
         {
 
-            _liftServiceController = new LiftServiceController(liftCollectionView.Lifts);
+            _liftServiceController = new LiftServiceController(liftCollectionView.CollectionView);
 
             controllersList.AddController(_liftServiceController);
 

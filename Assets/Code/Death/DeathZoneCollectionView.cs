@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using Interfaces.MVC;
 
 namespace Death
 {
 
-    public class DeathZoneCollectionView : MonoBehaviour
+    public class DeathZoneCollectionView : MonoBehaviour, ICollectionView<DeathZoneView>
     {
 
         #region Fields
@@ -15,7 +16,7 @@ namespace Death
 
         #region Properties
 
-        public List<DeathZoneView> DeathZones => _deathZones;
+        public List<DeathZoneView> CollectionView => _deathZones;
         
         #endregion
 

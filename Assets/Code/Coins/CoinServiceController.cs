@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-using Controllers;
 using ExtensionCompilation;
-using Interfaces;
 using Interfaces.Components;
 using Interfaces.MVC;
 using Interfaces.MVC.UnityEvents;
+using Interfaces.Quests;
 using Points;
 
 using Object = UnityEngine.Object;
@@ -14,24 +13,26 @@ using Object = UnityEngine.Object;
 namespace Coins
 {
 
-    public class CoinServiceController : IController, IRestartable, IUpdate, IToggleObject, IDisposable
+    public class CoinServiceController : IController, IQuestSubscriber, IUpdate, IToggleObject
     {
 
         #region Fields
 
-        private List<CoinController> _coinControllers = new List<CoinController>();
+        private List<CoinController> _controllers = new List<CoinController>();
+        private List<IQuestView> _questViews = new List<IQuestView>();
+        private Dictionary<IQuestView, CoinController> _questLevers = new Dictionary<IQuestView, CoinController>();
 
         #endregion
 
-        #region Observers
+        #region Interfaces Properties
 
-        private GameRestarter _gameRestarter;
+        public List<IQuestView> QuestViews => _questViews;
 
         #endregion
 
         #region Constructors
 
-        public CoinServiceController(List<Transform> transforms, CoinData coinData, Transform poolTransform, PointsController pointsController, GameRestarter gameRestarter)
+        public CoinServiceController(List<Transform> transforms, CoinData coinData, Transform poolTransform, PointsController pointsController)
         {
 
             for(int i = 0; i < transforms.Count; i++)
@@ -41,18 +42,33 @@ namespace Coins
 
                 coin.transform.SetPositionAndRotation(transforms[i]);
 
+                CoinController controller = null;
+
                 if(coin.TryGetComponent<CoinView>(out var coinView))
                 {
 
-                    _coinControllers.Add(new CoinController(coinView, pointsController, coinData.Points));
+                    controller = new CoinController(coinView, pointsController, coinData.Points);
+
+                    _controllers.Add(controller);
+                    
+                };
+                
+                if (coin.TryGetComponent<IQuestView>(out var questView))
+                {
+
+                    _questViews.Add(questView);
+
+                };
+
+                if(controller != null
+                    && questView != null)
+                {
+
+                    _questLevers.Add(questView, controller);
 
                 };
 
             };
-
-            _gameRestarter = gameRestarter;
-
-            _gameRestarter.AddHandler(Restart);
 
         }
 
@@ -60,25 +76,41 @@ namespace Coins
 
         #region Interfaces Methods
 
-        public void Restart()
+        public void EnableQuestObjects(int id)
         {
+
+            var controller = QuestControllersByID(id);
             
-            for(int i = 0; i < _coinControllers.Count; i++)
+            for(int i = 0; i < controller.Length; i++)
             {
 
-                _coinControllers[i].Restart();
-
+                controller[i].SwitchOn();
+                
             };
 
+        }
+
+        public void DisableQuestObjects(int id)
+        {
+
+            var controller = QuestControllersByID(id);
+
+            for (int i = 0; i < controller.Length; i++)
+            {
+
+                controller[i].SwitchOff();
+
+            };
+            
         }
 
         public void OnUpdate(float deltaTime)
         {
             
-            for(int i = 0; i < _coinControllers.Count; i++)
+            for(int i = 0; i < _controllers.Count; i++)
             {
 
-                _coinControllers[i].OnUpdate(deltaTime);
+                _controllers[i].OnUpdate(deltaTime);
 
             };
 
@@ -87,10 +119,10 @@ namespace Coins
         public void SwitchOff()
         {
 
-            for (int i = 0; i < _coinControllers.Count; i++)
+            for (int i = 0; i < _controllers.Count; i++)
             {
 
-                _coinControllers[i].SwitchOff();
+                _controllers[i].SwitchOff();
 
             };
 
@@ -99,22 +131,30 @@ namespace Coins
         public void SwitchOn()
         {
 
-            for (int i = 0; i < _coinControllers.Count; i++)
+            for (int i = 0; i < _controllers.Count; i++)
             {
 
-                _coinControllers[i].SwitchOn();
+                _controllers[i].SwitchOn();
 
             };
 
         }
 
-        public void Dispose()
+        #endregion
+
+        #region Methods
+
+        private CoinController[] QuestControllersByID(int id)
         {
 
-            _gameRestarter.RemoveHandler(Restart);
+            return _questLevers
+                    .Where((x) => x.Key.ID == id)
+                    .ToArray()
+                    .Select((x) => x.Value)
+                    .ToArray();
 
         }
-
+        
         #endregion
 
     }
