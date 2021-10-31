@@ -9,16 +9,16 @@ namespace Coins
 
         #region Fields
 
-        [SerializeField] private List<Transform> _coins;
+        [SerializeField] private List<Transform> _transforms;
         [SerializeField] private CoinData _coinData;
 
         #endregion
 
         #region Properties
 
-        public List<Transform> Coins => _coins;
+        public List<Transform> Transforms => _transforms;
         public CoinData CoinData => _coinData;
-
+        
         #endregion
 
     }

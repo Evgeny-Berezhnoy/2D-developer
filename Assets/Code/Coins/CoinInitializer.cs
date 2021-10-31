@@ -2,7 +2,6 @@
 using Game;
 using Interfaces.MVC;
 using Points;
-using Controllers;
 
 namespace Coins
 {
@@ -11,18 +10,24 @@ namespace Coins
 
         #region Fields
 
-        private CoinServiceController _coinServiceController;
+        private CoinServiceController _serviceController;
+
+        #endregion
+
+        #region Properties
+
+        public CoinServiceController ServiceController => _serviceController;
 
         #endregion
 
         #region Constructors
 
-        public CoinInitializer(ControllersList controllersList, CoinCollectionView coinCollectionView, Transform poolTransform, PointsController pointsController, GameRestarter gameRestarter)
+        public CoinInitializer(ControllersList controllersList, CoinCollectionView coinCollectionView, Transform poolTransform, PointsController pointsController)
         {
 
-            _coinServiceController = new CoinServiceController(coinCollectionView.Coins, coinCollectionView.CoinData, poolTransform, pointsController, gameRestarter);
+            _serviceController = new CoinServiceController(coinCollectionView.Transforms, coinCollectionView.CoinData, poolTransform, pointsController);
 
-            controllersList.AddController(_coinServiceController);
+            controllersList.AddController(_serviceController);
 
         }
 
@@ -30,4 +35,5 @@ namespace Coins
 
 
     }
+
 }

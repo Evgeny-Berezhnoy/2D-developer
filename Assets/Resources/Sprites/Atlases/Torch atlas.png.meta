@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 9983d6415ec074d4fb45ec90a7b552ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3812552940107043895
+    second: Torch atlas_01
+  - first:
+      213: -2579786994334767592
+    second: Torch atlas_1
+  - first:
+      213: -5984406576677141619
+    second: Torch atlas_2
+  - first:
+      213: -5731543081845442261
+    second: Torch atlas_4
+  - first:
+      213: -9001081587511138435
+    second: Torch atlas_9
+  - first:
+      213: 9214350560959455135
+    second: Torch atlas_10
+  - first:
+      213: 1645474749118301104
+    second: Torch atlas_11
+  - first:
+      213: -6233354880707372188
+    second: Torch atlas_17
+  - first:
+      213: 1876633085431604527
+    second: Torch atlas_19
+  - first:
+      213: 7087077539623083773
+    second: Torch atlas_20
+  - first:
+      213: 1768618362024576214
+    second: Torch atlas_21
+  - first:
+      213: 4818507157973069069
+    second: Torch atlas_22
+  - first:
+      213: -3051483118699841063
+    second: Torch atlas_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Torch atlas_01
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 286
+        width: 56
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4948643, y: 0.17944463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb6c8dfc47171bc0800000000000000
+      internalID: -3812552940107043895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 286
+        width: 56
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816e08e9561c23cd0800000000000000
+      internalID: -2579786994334767592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 286
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83c5addced13fca0800000000000000
+      internalID: -5984406576677141619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 286
+        width: 56
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2931cf1fe77570b0800000000000000
+      internalID: -5731543081845442261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 286
+        width: 56
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77e6166cfbb51380800000000000000
+      internalID: -9001081587511138435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_10
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 286
+        width: 60
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fd8e5f303ffdf70800000000000000
+      internalID: 9214350560959455135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 286
+        width: 60
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b34214f096e5d610800000000000000
+      internalID: 1645474749118301104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51
+        width: 59
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b5d7003ccae79a0800000000000000
+      internalID: -6233354880707372188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_19
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 51
+        width: 60
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2565ee29d32b0a10800000000000000
+      internalID: 1876633085431604527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 60
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe12ec297b5a5260800000000000000
+      internalID: 7087077539623083773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 51
+        width: 56
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d445bb97056b8810800000000000000
+      internalID: 1768618362024576214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 51
+        width: 58
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d69aa0bb6ced240800000000000000
+      internalID: 4818507157973069069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch atlas_23
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 51
+        width: 60
+        height: 192
+      alignment: 9
+      pivot: {x: 0.52577055, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d97bcf5544f6a5d0800000000000000
+      internalID: -3051483118699841063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

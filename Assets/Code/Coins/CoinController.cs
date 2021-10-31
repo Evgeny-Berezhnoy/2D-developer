@@ -9,7 +9,7 @@ using Points;
 
 namespace Coins
 {
-    public class CoinController : IController, IRestartable, IUpdate, IToggleObject
+    public class CoinController : IController, IUpdate, IToggleObject
     {
 
         #region Fields
@@ -39,13 +39,6 @@ namespace Coins
 
         #region Interfaces Methods
 
-        public void Restart()
-        {
-
-            SwitchOn();
-
-        }
-
         public void OnUpdate(float deltaTime)
         {
 
@@ -68,6 +61,7 @@ namespace Coins
         {
 
             _view.gameObject.SetActive(false);
+            _view.Collider.enabled = false;
 
         }
 
@@ -75,7 +69,8 @@ namespace Coins
         {
 
             _view.gameObject.SetActive(true);
-
+            _view.Collider.enabled = true;
+            
         }
 
         #endregion

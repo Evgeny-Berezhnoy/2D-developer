@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using Interfaces.MVC;
 
 namespace Lifts
 {
 
-    public class LiftCollectionView : MonoBehaviour
+    public class LiftCollectionView : MonoBehaviour, ICollectionView<LiftView> 
     {
 
         #region Fields
@@ -15,7 +16,7 @@ namespace Lifts
 
         #region Properties
 
-        public List<LiftView> Lifts => _lifts;
+        public List<LiftView> CollectionView => _lifts;
         
         #endregion
 
