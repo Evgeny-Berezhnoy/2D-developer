@@ -150,8 +150,6 @@ namespace Player
 
             };
 
-            Debug.Log(_ignoringPlatformsLengthCurrent);
-
             if(_ignoringPlatformsLengthCurrent > 0
                     && !Physics2D.GetIgnoreLayerCollision(Layers.PLAYER, Layers.PLATFORM))
             {

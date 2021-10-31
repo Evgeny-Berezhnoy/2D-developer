@@ -1,16 +1,19 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using Enemy.Gun;
 using Bullet;
+using Enemy.Gun;
+using Enemy.Zombie;
 
 namespace Enemy
 {
+
     public class EnemyCollectionView : MonoBehaviour
     {
 
         #region Fields
 
         [SerializeField] private List<GunView> _guns;
+        [SerializeField] private List<ZombieView> _zombies;
         [SerializeField] private BulletData _bulletData;
 
         #endregion
@@ -19,6 +22,7 @@ namespace Enemy
 
         public List<GunView> Guns => _guns;
         public BulletData BulletData => _bulletData;
+        public List<ZombieView> Zombies => _zombies;
 
         #endregion
 

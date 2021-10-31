@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: 97a15eec5e7cf1a4c8abe6fd117abfb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3381008395896979337
+    second: Zombie atlas_0
+  - first:
+      213: -2692416103758805288
+    second: Zombie atlas_1
+  - first:
+      213: 6864664174183355839
+    second: Zombie atlas_2
+  - first:
+      213: -4862990924471347798
+    second: Zombie atlas_3
+  - first:
+      213: -3387628284096900262
+    second: Zombie atlas_4
+  - first:
+      213: -1708287546481864142
+    second: Zombie atlas_5
+  - first:
+      213: -7648244056802522910
+    second: Zombie atlas_6
+  - first:
+      213: 9199242588242378920
+    second: Zombie atlas_7
+  - first:
+      213: 7680202705146710604
+    second: Zombie atlas_8
+  - first:
+      213: -6708278264865447003
+    second: Zombie atlas_9
+  - first:
+      213: -3475805690730738356
+    second: Zombie atlas_10
+  - first:
+      213: -4736466003040789901
+    second: Zombie atlas_11
+  - first:
+      213: 290566664855179802
+    second: Zombie atlas_12
+  - first:
+      213: -8059478183481405532
+    second: Zombie atlas_13
+  - first:
+      213: -6497113959754653025
+    second: Zombie atlas_14
+  - first:
+      213: 1593638493739908805
+    second: Zombie atlas_15
+  - first:
+      213: -1093162771437152888
+    second: Zombie atlas_16
+  - first:
+      213: 4181223688070812438
+    second: Zombie atlas_17
+  - first:
+      213: -8351145540377610338
+    second: Zombie atlas_18
+  - first:
+      213: -1862863810118898094
+    second: Zombie atlas_19
+  - first:
+      213: 8190537676109741151
+    second: Zombie atlas_20
+  - first:
+      213: -7953187109285852338
+    second: Zombie atlas_21
+  - first:
+      213: -4442408790106082973
+    second: Zombie atlas_22
+  - first:
+      213: 5917372022852452640
+    second: Zombie atlas_23
+  - first:
+      213: 4314386957406492763
+    second: Zombie atlas_24
+  - first:
+      213: 4000181512874682732
+    second: Zombie atlas_25
+  - first:
+      213: -1192882008228029658
+    second: Zombie atlas_26
+  - first:
+      213: -2547105418282988489
+    second: Zombie atlas_27
+  - first:
+      213: 4812034058387748114
+    second: Zombie atlas_28
+  - first:
+      213: 1729457550701403246
+    second: Zombie atlas_29
+  - first:
+      213: 1101050349847125975
+    second: Zombie atlas_30
+  - first:
+      213: 491618750989661328
+    second: Zombie atlas_31
+  - first:
+      213: -5108510464686997803
+    second: Zombie atlas_33
+  - first:
+      213: 1831950023914907669
+    second: Zombie atlas_35
+  - first:
+      213: 6083256342649897603
+    second: Zombie atlas_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie atlas_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 860
+        width: 74
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50263274, y: 0.026068468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f7d040931cbee20800000000000000
+      internalID: 3381008395896979337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 860
+        width: 76
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.033561707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d64ae391dd92aad0800000000000000
+      internalID: -2692416103758805288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 860
+        width: 78
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50249815, y: 0.031688396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb59c8422bf244f50800000000000000
+      internalID: 6864664174183355839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 860
+        width: 78
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5049963, y: 0.042927667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5dfe8f48f238cb0800000000000000
+      internalID: -4862990924471347798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_4
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 860
+        width: 76
+        height: 104
+      alignment: 9
+      pivot: {x: 0.49743733, y: 0.035435017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a539657260abcf0d0800000000000000
+      internalID: -3387628284096900262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 97
+        height: 113
+      alignment: 9
+      pivot: {x: 0.49799162, y: 0.03278236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23299b10781fa48e0800000000000000
+      internalID: -1708287546481864142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 725
+        width: 87
+        height: 111
+      alignment: 9
+      pivot: {x: 0.49776098, y: 0.031384166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e80bce6d8afbd590800000000000000
+      internalID: -7648244056802522910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 726
+        width: 82
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.036405776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a005d2f4664aaf70800000000000000
+      internalID: 9199242588242378920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_8
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 726
+        width: 82
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5023774, y: 0.034602977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a834b3baf859a60800000000000000
+      internalID: 7680202705146710604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_9
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 725
+        width: 88
+        height: 111
+      alignment: 9
+      pivot: {x: 0.4977868, y: 0.036649685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3a838c57867e2a0800000000000000
+      internalID: -6708278264865447003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 607
+        width: 100
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49805182, y: 0.033209167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d86bfc32573cfc0800000000000000
+      internalID: -3475805690730738356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 610
+        width: 102
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4961802, y: 0.034385376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a1a0ed341b44eb0800000000000000
+      internalID: -4736466003040789901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_12
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 611
+        width: 102
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49809057, y: 0.034385376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12534a97dc480400800000000000000
+      internalID: 290566664855179802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_13
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 609
+        width: 102
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49809057, y: 0.040924374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af84960b4bf62090800000000000000
+      internalID: -8059478183481405532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 607
+        width: 100
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49610475, y: 0.033209167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92a79bd64d95d5a0800000000000000
+      internalID: -6497113959754653025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 455
+        width: 84
+        height: 98
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.036810737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce71cf34cdbd1610800000000000000
+      internalID: 1593638493739908805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_16
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 461
+        width: 92
+        height: 105
+      alignment: 9
+      pivot: {x: 0.49788266, y: 0.026870873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8859ece404e44d0f0800000000000000
+      internalID: -1093162771437152888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_17
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 468
+        width: 108
+        height: 109
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.028147567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613d8ed8ac0b60a30800000000000000
+      internalID: 4181223688070812438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_18
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 470
+        width: 110
+        height: 108
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.023778562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9774369065ca1c80800000000000000
+      internalID: -8351145540377610338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_19
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 462
+        width: 92
+        height: 104
+      alignment: 9
+      pivot: {x: 0.495766, y: 0.027941484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eaeec0c37c526e0800000000000000
+      internalID: -1862863810118898094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 328
+        width: 82
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.037553575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c79fffe92aaa170800000000000000
+      internalID: 8190537676109741151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 325
+        width: 87
+        height: 101
+      alignment: 9
+      pivot: {x: 0.4978848, y: 0.03170867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b0dce367a90a190800000000000000
+      internalID: -7953187109285852338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_22
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 325
+        width: 71
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04351687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36177a60eb46952c0800000000000000
+      internalID: -4442408790106082973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_23
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 328
+        width: 93
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03516506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02184f1d08abe1250800000000000000
+      internalID: 5917372022852452640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 329
+        width: 78
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.037991207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58dac34418cfdb30800000000000000
+      internalID: 4314386957406492763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 193
+        width: 80
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5027331, y: 0.037703305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69eaff54ef738730800000000000000
+      internalID: 4000181512874682732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 190
+        width: 83
+        height: 106
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.033813477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b1d983228027fe0800000000000000
+      internalID: -1192882008228029658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 191
+        width: 97
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.041667793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c05c10e1dd6acd0800000000000000
+      internalID: -2547105418282988489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_28
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 191
+        width: 96
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50227803, y: 0.03536048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21578491b77c7c240800000000000000
+      internalID: 4812034058387748114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_29
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 190
+        width: 83
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5000007, y: 0.04000178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9ca3ba74400810800000000000000
+      internalID: 1729457550701403246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 55
+        width: 89
+        height: 114
+      alignment: 9
+      pivot: {x: 0.49754325, y: 0.028167825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df1576a577b74f00800000000000000
+      internalID: 1101050349847125975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_31
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 57
+        width: 105
+        height: 106
+      alignment: 9
+      pivot: {x: 0.49460623, y: 0.045870513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094f8a936a492d600800000000000000
+      internalID: 491618750989661328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_33
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 61
+        width: 126
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49775237, y: 0.050085448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de37f46cccea19b0800000000000000
+      internalID: -5108510464686997803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_35
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 59
+        width: 139
+        height: 58
+      alignment: 9
+      pivot: {x: 0.49999955, y: 0.12407671}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51867b537d46c6910800000000000000
+      internalID: 1831950023914907669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie atlas_36
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 52
+        width: 145
+        height: 60
+      alignment: 9
+      pivot: {x: 0.49218792, y: 0.18852063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3820a45c9611c6450800000000000000
+      internalID: 6083256342649897603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
